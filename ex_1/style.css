@@ -1,0 +1,24 @@
+body {
+    background: rgb(228, 118, 62);
+    color: #fff;
+    padding: 200px;
+    font-family: "Noto Sans SC", sans-serif;
+}
+
+a {
+    border: 1px solid #e5effb;
+    padding: 10px;
+    border-radius: 13px;
+    text-decoration: none;
+    color: #e5effb;
+    background: #556989;
+}
+
+.car {
+    width: 700px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
