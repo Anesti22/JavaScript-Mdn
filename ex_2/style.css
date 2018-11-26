@@ -1,7 +1,9 @@
 body {
     background: rgb(228, 118, 62);
     color: #fff;
-    padding: 200px;
+    top: 40%;
+    left: 20%;
+    position: absolute;
     font-family: "Noto Sans SC", sans-serif;
 }
 

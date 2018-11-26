@@ -1,7 +1,10 @@
 body {
-    background: rgb(228, 118, 62);
+    background: rgb(48, 177, 156);
     color: #fff;
-    padding: 200px;
+    top: 21%;
+    left: 13%;
+    right: 20%;
+    position: absolute;
     font-family: "Noto Sans SC", sans-serif;
 }
 
@@ -14,26 +17,41 @@ a {
     background: #556989;
 }
 
-.car {
-    width: 700px;
-    margin: 0 auto;
+.weather {
+    background: #346b62;
+    padding: 26px 26px 14px 26px;
+    box-shadow: 0px 0px 12px 2px;
+    display: block;
+    border-radius: 10px;
+    max-width: 380px;
 }
 
-img {
-    width: 100%;
-}
-
-button {
-    border: 1px solid #e5effb;
-    padding: 10px;
-    border-radius: 13px;
-    text-decoration: none;
-    color: #e5effb;
-    background: #556989;
-    cursor: pointer;
+#weather {
+    background: white;
+    color: firebrick;
     outline: none;
+    font-size: 14px;
 }
 
-button:hover {
-    background: #196989;
+p {
+    max-width: 300px;
+}
+
+h1 {
+    color: white;
+    display: block;
+    padding: 2px 11px 3px 11px;
+    text-align: center;
+    box-shadow: -4px -5px 0px 0px;
+    margin-bottom: 24px;
+    max-width: 150px;
+    font-size: 21px;
+}
+
+label {
+    color: #46ffe1;
+    font-size: 15px;
+    margin-right: 20px;
+    font-family: "Noto Sans SC", sans-serif;
+    font-weight: 400;
 }
