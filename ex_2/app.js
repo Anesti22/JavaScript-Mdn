@@ -9,7 +9,7 @@ function setUserName() {
 
 var storedName = localStorage.getItem('name');
 if (!storedName) {
-    setUsername();
+    setUserName();
 } else {
     myHeading.textContent = 'MDN is cool, ' + storedName;
 }
