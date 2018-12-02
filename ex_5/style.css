@@ -1,0 +1,35 @@
+body {
+    background: rgb(48, 177, 156);
+    color: #fff;
+    top: 21%;
+    left: 13%;
+    right: 20%;
+    position: absolute;
+    font-family: "Noto Sans SC", sans-serif;
+    max-width: 320px;
+
+}
+
+a {
+    border: 1px solid #e5effb;
+    padding: 10px;
+    border-radius: 13px;
+    text-decoration: none;
+    color: #e5effb;
+    background: #556989;
+}
+
+.theme {
+    background: #346b62;
+    padding: 26px 26px 14px 26px;
+    display: block;
+    border-radius: 10px;
+    max-width: 380px;
+}
+
+#theme {
+    background: white;
+    color: firebrick;
+    outline: none;
+    font-size: 14px;
+}
