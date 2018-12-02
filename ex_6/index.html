@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/ico" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Js Learn</title>
+</head>
+
+<body>
+    <!-- Switch statements -->
+    <h1 class="title">Switch statements</h1>
+    <div class="what">
+        <em>Switch statements are your friend here — they take a single expression/value as an input, and then look
+            through a number of choices until they find one that matches that value, executing the corresponding code
+            that goes along with it. Here's some more pseudocode, to give you an idea</em>
+    </div>
+
+    <div class="theme">
+        <ol>
+            <li>The keyword <code>switch</code>, followed by a set of parentheses.</li>
+            <li>An expression or value inside the parentheses.</li>
+            <li>The keyword <code>case</code>, followed by a choice that the expression/value could be, followed by a
+                colon.</li>
+            <li>Some code to run if the choice matches the expression.</li>
+            <li>A <code>break</code> statement, followed by a semi-colon. If the previous choice matches the
+                expression/value, the browser stops executing the code block here, and moves on to any code that
+                appears below the switch statement.</li>
+            <li>As many other cases (bullets 3–5) as you like.</li>
+            <li>The keyword <code>default</code>, followed by exactly the same code pattern as one of the cases
+                (bullets 3–5), except that <code>default</code> does not have a choice after it, and you don't need to
+                <code>break</code> statement as there is nothing to run after this in the block anyway. This is the
+                default option that runs if none of the choices match.</li>
+        </ol>
+
+
+        <label for="weather">Select the weather type today: </label>
+        <select id="weather">
+            <option value="">--Make a choice--</option>
+            <option value="sunny">Sunny</option>
+            <option value="rainy">Rainy</option>
+            <option value="snowing">Snowing</option>
+            <option value="overcast">Overcast</option>
+        </select>
+
+        <p></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

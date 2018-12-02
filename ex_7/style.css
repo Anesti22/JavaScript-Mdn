@@ -1,0 +1,53 @@
+body {
+    background: rgb(48, 177, 156);
+    color: #fff;
+    top: 10%;
+    left: 5%;
+    right: 20%;
+    position: absolute;
+    font-family: "Noto Sans SC", sans-serif;
+
+}
+
+a {
+    border: 1px solid #e5effb;
+    padding: 10px;
+    border-radius: 13px;
+    text-decoration: none;
+    color: #e5effb;
+    background: #556989;
+}
+
+.theme {
+    color: #16302c;
+    background: #ffffffb5;
+    padding: 26px 26px 14px 26px;
+    display: block;
+    margin: 20px 0;
+    max-width: 860px;
+}
+
+#theme {
+    background: white;
+    color: firebrick;
+    outline: none;
+    font-size: 14px;
+}
+
+em {
+    color: #16302c;
+    background: #ffffffb5;
+}
+
+
+h1.title {
+    color: firebrick;
+    background: white;
+    padding: 10px 20px 10px 29px;
+    display: inline-block;
+}
+
+.what {
+    background: white;
+    padding: 10px 4px 10px 29px;
+}

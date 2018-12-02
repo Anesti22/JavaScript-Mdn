@@ -1,0 +1,152 @@
+body {
+    background: rgb(48, 177, 156);
+    color: #fff;
+    top: 10%;
+    left: 5%;
+    right: 20%;
+    position: absolute;
+    font-family: "Noto Sans SC", sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: rebeccapurple;
+    text-decoration: underline;
+}
+
+.theme {
+    color: #16302c;
+    background: #ffffffb5;
+    padding: 26px 26px 14px 26px;
+    display: block;
+    margin: 20px 0;
+    max-width: 200px;
+}
+
+#theme {
+    background: white;
+    color: firebrick;
+    outline: none;
+    font-size: 14px;
+    display: inline-block;
+}
+
+em {
+    color: #16302c;
+    background: #ffffffb5;
+    display: inline-block;
+}
+
+
+h1.title {
+    color: firebrick;
+    background: white;
+    padding: 10px 20px 10px 29px;
+    display: inline-block;
+}
+
+.what-1 {
+    display: block;
+}
+
+.what {
+    background: white;
+    padding: 10px 20px 10px 29px;
+    display: inline-block;
+}
+
+.output h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.output li {
+    display: block;
+    float: left;
+    width: 25%;
+    border: 2px solid white;
+    padding: 5px;
+    height: 40px;
+    background-color: #4A2DB6;
+    color: white;
+}
+
+select {
+    background-color: rgb(248, 248, 248);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(166, 166, 166);
+    border-image: initial;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+
+/* Add more color choices! */
+label,
+footer {
+    font-family: sans-serif;
+}
+
+label {
+    font-size: 1rem;
+    padding-right: 10px;
+}
+
+footer {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.pets {
+    display: block;
+}
+
+.output-1,
+.output-2,
+.output-3,
+.output-4,
+.output-5,
+.output-6 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.output-1 {
+    background-image: url('img/img-2.jpg');
+}
+
+.output-2 {
+    background-image: url('img/img-1.jpg');
+}
+
+.output-3 {
+    background-image: url('img/img-3.png');
+}
+
+.output-4 {
+    background-image: url('img/img-4.jpg');
+}
+
+.output-5 {
+    background-image: url('img/img-5.JPG');
+}
+
+.output-6 {
+    background-image: url('img/img-6.png');
+}
